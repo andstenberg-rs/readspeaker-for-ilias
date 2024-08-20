@@ -1,0 +1,34 @@
+settings#:#ReadSpeaker-Einstellungen
+wrScriptUrl#:#webReader-Skript-URL
+wrScriptUrlInfo#:#Die URL, von der die webReader-JavaScript-Datei geladen werden soll. Z.B. https://cdn-eu.readspeaker.com/script/[Customer ID]/webReader/webReader.js?pids=wr
+wrApiUrl#:#API-URL
+wrApiUrlInfo#:#Die URL der Backend-TTS-API (Enterprise). Z.B. https://app-eu.readspeaker.com/cgi-bin/rsent
+wrCustomerId#:#Kundennummer
+wrCustomerIdInfo#:#Ihre Kundennummer (bereitgestellt von ReadSpeaker)
+wrInlineConfig#:#Inline-Konfiguration
+wrInlineConfigInfo#:#Inline-Konfiguration. Sollte ein JavaScript-Objekt sein, z.B. { general: { usePost: true } }
+wrReadingLang#:#Lesesprache
+wrReadingLangInfo#:#Die Lesesprache (fünfstelliger Code, z. B. en_us für amerikanisches Englisch)
+wrVoice#:#Stimme
+wrVoiceInfo#:#Geben Sie eine Stimme an (optional). Beachten Sie, dass die Stimme in Ihrem ReadSpeaker-Konto verfügbar sein muss.
+wrReadId#:#Lesebereichs-ID
+wrReadIdInfo#:#ID eines Elements, das den zu lesenden Inhalt umgibt. Z.B. mainscrolldiv, wenn das Element die ID #mainscrolldiv hat.
+wrReadClass#:#Lesebereichsklasse
+wrReadClassInfo#:#CSS-Elementklasse, die den zu lesenden Inhalt umgibt. Z.B. text-content, wenn die Elemente die Klasse .text-content haben.
+wrListenLabel#:#Label anhören
+wrListenLabelInfo#:#Beschriftung der Schaltfläche „Anhören“. Z.B. "Hören"
+wrListenAltText#:#Alt-Text der Schaltfläche „Anhören“.
+wrListenAltTextInfo#:#Der alternative Text der Schaltfläche „Anhören“. Z.B. „Hören Sie sich diese Seite mit ReadSpeaker an“.
+drEnable#:#Aktivieren Sie docReader
+drEnableInfo#:#Erkennt automatisch Dokumentverknüpfungen und fügt daneben ein docReader-Symbol hinzu.
+drCustomerId#:#docReader-Kunden-ID
+drCustomerIdInfo#:#Entweder eine Zeichenfolge oder eine numerische ID. Weitere Informationen finden Sie in den Implementierungsanweisungen im ReadSpeaker-Admin-Portal.
+drReadingLang#:#Sprache zum Lesen von Dokumenten
+drReadingLangInfo#:#Eine fünfstellige lokale Zeichenfolge. Z.B. en_us für amerikanisches Englisch.
+drListenLabel#:#docReader Listen Label
+drListenLabelInfo#:#Beschriftung der Schaltfläche „Anhören“. Z.B. "Hören"
+drImageUrl#:#docReader-Symbol-URL
+drImageUrlInfo#:#Eine URL, von der das docReader-Symbol abgerufen werden soll. Z.B. https://media.readspeaker.com/buttons/images/listen_icons/icon_16px.gif
+drImageAlt#:#docReader-Symbol Alt-Text
+drImageAltInfo#:#Der alternative Text, der in einer QuickInfo angezeigt wird, wenn der Benutzer den Mauszeiger über das Symbol bewegt.
+
