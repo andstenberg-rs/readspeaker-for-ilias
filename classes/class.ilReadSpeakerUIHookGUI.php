@@ -18,7 +18,7 @@ class ilReadSpeakerUIHookGUI extends ilUIHookPluginGUI
 
 		$tpl->addJavaScript('Customizing/global/plugins/Services/UIComponent/UserInterfaceHook/ReadSpeaker/script/readspeaker.js?v=0.1l&sid=' . session_id());
 
-		$inContext = isset($a_par['tpl_id']) && strpos($a_par['tpl_id'], 'menu') !== false;
+		$inContext = isset($a_par['tpl_id']) && strpos($a_par['tpl_id'], 'standardpage') !== false;
 		if ($RSINIT != 1 && $inContext) {
 			$rsdata = array(
 				'wrScriptUrl' => ilReadSpeakerSettings::getInstance()->getWrScriptUrl(),
